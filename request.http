@@ -1,0 +1,44 @@
+@url = http://localhost:3000
+
+### Request
+GET {{url}}/estudo/req
+
+### Response Express
+GET {{url}}/estudo/resExpress
+
+### Response
+GET {{url}}/estudo/res
+
+### Next
+GET {{url}}/estudo/next
+
+### Session
+GET {{url}}/estudo/session
+
+### Param
+GET {{url}}/estudo/param/1
+
+### Body
+GET {{url}}/estudo/body
+Content-Type: application/json
+
+{
+  "braco": true,
+  "perna": true,
+  "cabeca": true
+}
+
+### Query
+GET {{url}}/estudo/query
+  ?cachorro=teca
+  &gato=miau
+
+### Headers
+GET {{url}}/estudo/headers
+Authorization: Bearer 123456
+
+### Ip
+GET {{url}}/estudo/ip
+
+### Host Param
+GET {{url}}/estudo/hostParam
