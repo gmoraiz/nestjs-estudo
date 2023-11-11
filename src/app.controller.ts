@@ -1,5 +1,7 @@
 /*
-  Um controlador básico com uma única rota.
+  - Um controlador básico com uma única rota.
+  - Se o retorno do response for um array ou objeto, ele será serializado para JSON.
+  - Se o retorno do response for um dado primitivo do javascript, não haverá serialização.
 */
 
 import { Controller, Get } from '@nestjs/common';
