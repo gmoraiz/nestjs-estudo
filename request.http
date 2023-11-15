@@ -42,3 +42,22 @@ GET {{url}}/estudo/ip
 
 ### Host Param
 GET {{url}}/estudo/hostParam
+
+### Wild Card
+GET {{url}}/estudo/ab.-.cd
+
+### Promise
+GET {{url}}/estudo/promise
+
+### Observable
+GET {{url}}/estudo/observable
+
+### Create Cat
+POST {{url}}/cats
+Content-Type: application/json
+
+{
+  "name": "Celina",
+  "age": 2,
+  "breed": "RAG_DOLL"
+}
