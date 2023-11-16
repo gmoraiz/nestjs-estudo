@@ -52,12 +52,15 @@ GET {{url}}/estudo/promise
 ### Observable
 GET {{url}}/estudo/observable
 
-### Create Cat
+### Cat Create
 POST {{url}}/cats
 Content-Type: application/json
 
 {
-  "name": "Celina",
-  "age": 2,
+  "name": "Celina 3",
+  "age": 1,
   "breed": "RAG_DOLL"
 }
+
+### Cat Find All
+GET {{url}}/cats

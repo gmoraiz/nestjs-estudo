@@ -8,10 +8,11 @@ import { AppService } from './app.service';
 import { EstudoController } from './estudo.controller';
 import { CatsController } from './cats/cats.controller';
 import { GeneratedResourceModule } from './generated-resource/generated-resource.module';
+import { CatsService } from './cats/cats.service';
 
 @Module({
   imports: [GeneratedResourceModule],
   controllers: [AppController, EstudoController, CatsController],
-  providers: [AppService],
+  providers: [AppService, CatsService],
 })
 export class AppModule {}
